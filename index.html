@@ -8,56 +8,333 @@
     <title>Brexit Quiz</title>
 </head>
 <body>
-    <h1 id="header">Brexit Quiz</h1>
-    <!-- Main category Container -->
-    <div id="category" class="multiple-choice">
-        <h3>Select Answer</h3>
-        <ul class="choice">
-            <li id="trade">Trade</li>
-            <li id="politics">Politics</li>
-            <li id="social">Social</li>
-        </ul>
+    <h1>Brexit Quiz</h1>
+    <div>
+        <nav>
+            <ul id="nav-bar">
+                <li>
+                    <a href="signup.html">Sign Up</a>
+                </li>
+                <li>
+                    <a href="login.html">Login</a>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+            </ul> 
+        </nav>
     </div>
-    <!-- Main Question -->
-    <div id="main-question" class="question-main">
-        <p id="question">Question: Why might some countries NOT want to 
-            switch their currency to the euro?
+    <!--question answer section-->
+    <div id="question">
+        <p>
+            1. Which year did the UK hold a referendum to leave the European Union?
         </p>
-        <h3 id="proceed">1 - 5</h3>
-        <div class="proceed-bar">
-            <div id="proceed-bar"></div>
-        </div>
-        <div class="response">
-            <ul>
-                <li class="respond">The euro decreases international trade.</li>
-                <li class="respond">The euro leads to lost control over economic factors.</li>
-                <li class="respond">The euro means less business efficiency.</li>
-                <li class="respond">The euro is associated with national identity.</li>
-                <li class="respond">Other</li>
-            </ul>
-        </div>
     </div>
-    <!-- Result Main -->
     <div>
-        <h3>Your Results</h3>
-        <div class="relative">
-            <div class="Center">
-                <h3>Score</h3>
-            </div>
+        <div id="choice" class="Answer">
+            <label for="2015">2015</label>
+            <input type="radio" id="2015" name="2015" value="2015" required>
+        </div>  
+    </div>
+    <div>
+        <div id="choice" class="answer">
+            <label for="2016">2016</label>
+            <input type="radio" id="2016" name="2016" value="2016" required>
         </div>
     </div>
     <div>
-        <div>
-            "Your Response"
-            <i class="bi bi-plus-circle"></i>
+        <div id="choice" class="anawer">
+            <label for="2016">2017</label>
+            <input type="radio" id="2017" name="2017" value="2017" required>
         </div>
+    </div>
+    <div id="question">
+        <p>
+           2. Which country of the UK had the strongest remain vote, at 62%?
+        </p>
+    </div>
+    <div>
+        <div id="choice" class="answer">
+            <label for="england">England</label>
+            <input type="radio" id="england" name="england" value="england" required>
+        </div>
+    </div>
+    <div>
+        <div id="choice" class="answer">
+            <label for="england">Northern Ireland</label>
+            <input type="radio" id="northern-ireland" name="northern-ireland" value="northern-ireland" required>
+        </div>
+    </div>
+    <div>
+        <div id="choice" class="answer">
+            <label for="scotland">Scotland</label>
+            <input type="radio" id="scotland" name="scotland" value="scotland" required>
+        </div>
+    </div>
+    <div>
+        <div id="choice" class="answer">
+            <label for="Wales">Wales</label>
+            <input type="radio" id="Wales" name="Wales" value="Wales" required>
+        </div>
+    </div>
+    <div id="question">
+        <p>
+           3. Who took over as Prime Minister once David Cameron resigned?
+        </p>
+    </div>
+    <div>
+        <div id="choice" class="answer">
+            <label for="sadiq-khan">Sadiq Khan</label>
+            <input type="radio" id="sadiq-khan" name="sadiq-khan" value="sadiq-khan" required>
+        </div>
+    </div>
+    <div>
+        <div id="choice" class="answer">
+            <label for="boris-johnson">Boris Johnson</label>
+            <input type="radio" id="boris-johnson" name="boris-johnson" value="boris-johnson" required>
+        </div>
+    </div>
+    <div>
+        <div id="choice" class="answer">
+            <label for="ed-miliband">Ed Miliband</label>
+            <input type="radio" id="ed-miliband" name="ed-miliband" value="ed-miliband" required>
+        </div>
+    </div>
+    <div>
+        <div id="choice" class="answer">
+            <label for="theresa-may">Theresa May</label>
+            <input type="radio" id="theresa-may" name="theresa-may" value="theresa-may" required>
+        </div>
+    </div>
+    <div id="question">
+        <p>
+            4. In March 2017 the Government triggered what motion?
+        </p>
+    </div>
+    <div>
+        <div id="choice" class="answer">
+            <label for="article-50">Article 50</label>
+            <input type="radio" id="article-50" name="article-50" value="article-50" required>
+        </div>
+    </div>
+    <div>
+        <div id="choice" class="answer">
+            <label for="article-30">Article 50</label>
+            <input type="radio" id="article-30" name="article-30" value="article-30" required>
+        </div>
+    </div>
+    <div>
+        <div id="choice" class="answer">
+            <label for="article-60">Article 60</label>
+            <input type="radio" id="article-60" name="article-60" value="article-60" required>
+        </div>
+    </div>
+    <div>
+        <div id="choice" class="answer">
+            <label for="article-40">Article 40</label>
+            <input type="radio" id="article-40" name="article-40" value="article-40" required>
+        </div>
+    </div>
+    <div id="question">
+        <p>
+            5. The Article above sets out the leaving process. How long does it give for negotiations before that country leaves the EU?
+        </p>
+    </div>
+    <div>
+        <div id="choice" class="answer">
+            <label for="6-months">6 Months</label>
+            <input type="radio" id="6-months" name="6-months" value="6-months" required>
+        </div>
+    </div>
+    <div>
+        <div id="choice" class="answer">
+            <label for="1-year">1 Year</label>
+            <input type="radio" id="1-year" name="1-year" value="1-year" required>
+        </div>
+    </div>
+    <div>
+        <div id="choice" class="answer">
+            <label for="2-years">2 Years</label>
+            <input type="radio" id="2-years" name="2-years" value="2-years" required>
+        </div>
+    </div>
+    <div>
+        <div id="choice" class="answer">
+            <label for="3-years">3 Years</label>
+            <input type="radio" id="3-years" name="3-years" value="3-years" required>
+        </div>
+    </div>
+    <div id="question">
+        <p>
+            5. In June 2017, a "snap" general election was held in order to strengthen the government's majority. What happened instead?
+        </p>
+    </div>
+    <div>
+        <div id="choice" class="answer">
+            <label for="government">The government made no deals and became a hung parliament</label>
+            <input type="radio" id="government" name="government" value="government" required>
+        </div>
+    </div>
+    <div>
+        <div id="choice" class="answer">
+            <label for="dup">The government made a deal with the Northern irish party DUP to stay in power</label>
+            <input type="radio" id="dup" name="dup" value="dup" required>
+        </div>
+    </div>
+    <div>
+        <div id="choice" class="answer">
+            <label for="Labour">The government convinced Brexit-supporting Labour MPs tp join the Tories to stay in power</label>
+            <input type="radio" id="Labour" name="Labour" value="Labour" required>
+        </div>
+    </div>
+    <div>
+        <div id="choice" class="answer">
+            <label for="deals">the government made no deals and achieved a majority</label>
+            <input type="radio" id="deals" name="deals" value="deals" required>
+        </div>
+    </div>
+    <div id="question">
+        <p>
+           7. The first "Brexit Secretary" David Davis resigns in July 2018. Who took over this role for only 4 months?
+        </p>
+    </div>
+    <div>
+        <div id="choice" class="answer">
+            <label for="steven-barclay">Steven Barclay</label>
+            <input type="radio" id="steven-barclay" name="steven-barclay" value="steven-barclay" required>
+        </div>
+    </div>
+    <div>
+        <div id="choice" class="answer">
+            <label for="olly-robbins">Olly Robbins</label>
+            <input type="radio" id="olly-robbins" name="olly-robbins" value="olly-robbins" required>
+        </div>
+    </div>
+    <div>
+        <div id="choice" class="answer">
+            <label for="steve-baker">Steve Baker</label>
+            <input type="radio" id="steve-baker" name="steve-baker" value="steve-baker" required>
+        </div>
+    </div>
+    <div>
+        <div id="choice" class="answer">
+            <label for="dominic-raab">Dominic Raab</label>
+            <input type="radio" id="dominic-raab" name="dominic-raab" value="dominic-raab" required>
+        </div>
+    </div>
+    <div id="question">
+        <p>
+           8. On the 20th of October 2018, the People's Vote march took to the streets of London in protest of a second referendum. 
+            Roughly how many people were estimated to have took part?
+        </p>
+    </div>
+    <div>
+        <div id="choice" class="answer">
+            <label for="100000">100.000</label>
+            <input type="radio" id="100000" name="100000" value="100000" required>
+        </div>
+    </div>
+    <div>
+        <div id="choice" class="answer">
+            <label for="500000">500.000</label>
+            <input type="radio" id="500000" name="500000" value="500000" required>
+        </div>
+    </div>
+    <div>
+        <div id="choice" class="answer">
+            <label for="1500000">1,500.000</label>
+            <input type="radio" id="1500000" name="1500000" value="1500000" required>
+        </div>
+    </div>
+    <div>
+        <div id="choice" class="answer">
+            <label for="5000000">5,000.000</label>
+            <input type="radio" id="5000000" name="5000000" value="5000000" required>
+        </div>
+    </div>
+    <div id="question">
+        <p>
+           9. Later that year in November, the Brexit Secretary in Question 7 resigned. Who took over the role this time, where he still resided until 2020?
+        </p>
+    </div>
+    <div>
+        <div id="choice" class="answer">
+            <label for="steven-barclay">Steven Barclay</label>
+            <input type="radio" id="steven-barclay" name="steven-barclay" value="steven-barclay" required>
+        </div>
+    </div>
+    <div>
+        <div id="choice" class="answer">
+            <label for="olly-robbins">Olly Robbins</label>
+            <input type="radio" id="olly-robbins" name="olly-robbins" value="olly-robbins" required>
+        </div>
+    </div>
+    <div>
+        <div id="choice" class="answer">
+            <label for="steve-baker">Steve Baker</label>
+            <input type="radio" id="steve-baker" name="steve-baker" value="steve-baker" required>
+        </div>
+    </div>
+    <div>
+        <div id="choice" class="answer">
+            <label for="david-davis">Devid Devis</label>
+            <input type="radio" id="david-davis" name="david-davis" value="david-davis" required>
+        </div>
+    </div>
+    <div id="question">
+        <p>
+            10. On December 12th, 2018, the Prime Minister had a vote of no-confidence held against them. 
+            Out of the 317 Conservative MPs that voted, how many voted in support of the PM?
+        </p>
+    </div>
+    <div>
+        <div id="choice" class="answer">
+            <label for="125">125</label>
+            <input type="radio" id="125" name="125" value="125" required>
+        </div>
+    </div>
+    <div>
+        <div id="choice" class="answer">
+            <label for="150">150</label>
+            <input type="radio" id="150" name="150" value="150" required>
+        </div>
+    </div>
+    <div>
+        <div id="choice" class="answer">
+            <label for="175">175</label>
+            <input type="radio" id="175" name="175" value="175" required>
+        </div>
+    </div>
+    <div>
+        <div id="choice" class="answer">
+            <label for="200">200</label>
+            <input type="radio" id="200" name="200" value="200" required>
+        </div>
+    </div>
         <button>Restart Quiz</button>
-        <!-- Result Container-->
-        <div id="your-answer" class="your-answer-main">
-            <ul id="Answer"></ul>
-        </div>
+        <input type="submit">
     </div>
+    <!-- footer-->
+    <footer>
+        <footer>
+            <ul class="social-networks">
+                <li>
+                    <a href="https://facebook.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+                </li>
+                <li>
+                    <a href="https://instagram.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+        </footer>
+    </footer>
     
+    <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
 </body>
 </html>
