@@ -10,35 +10,33 @@
 <body>
     <header>
         <h1>Brexit Quiz</h1>
-        <div id="nav-bar">
-            <nav>
-                <ul>
-                    <li>
-                        <a href="signup.html" class="active">Sign Up</a>
-                    </li>
-                    <li>
-                        <a href="login.html" class="active">Login</a>
-                    </li>
-                    <li>
-                        <a href="index.html" class="active">Home</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+            <div id="nav-bar">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="signup.html" class="active">Sign Up</a>
+                        </li>
+                        <li>
+                            <a href="login.html" class="active">Login</a>
+                        </li>
+                        <li>
+                            <a href="index.html" class="active">Home</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div> 
     </header>
-    <!-- signup form-->
-    <form method="POST" class="signup-form">
-        <h2>Let's get you signed up!</h2>
-        <label for="fname">First Name</label>
-        <input id="fname" name="first_name" type="text" placeholder="First Name" required>
-        <label for="lname">Last Name</label>
-        <input id="lname" name="last_name" type="text" placeholder="Last Name" required>
-        <label for="email">Email Address</label>
-        <input type="email" id="email" name="email_address" placeholder="Your Email" required>
-        <label for="pword">Password</label>
-        <input id="pword" name="pass_word" type="password" placeholder="Your Password" required>
-        <input class="join-button" type="submit" value="Register!">
-    </form>
+    <!-- login form-->
+    <div>
+        <form method="POST" class="signup-form">
+            <h2>Login</h2>
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email_address" placeholder="Your Email" required>
+            <label for="pword">Password</label>
+            <input id="pword" name="pass_word" type="password" placeholder="Your Password" required>
+            <input class="join-button" type="submit" value="Login!">
+        </form>
+    </div>
     <!-- footer-->
     <footer>
         <footer>
@@ -58,6 +56,7 @@
             </ul>
         </footer>
     </footer>
+    
     <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
 </body>
