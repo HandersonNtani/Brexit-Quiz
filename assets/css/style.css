@@ -16,12 +16,20 @@ h1 {
     margin-right: 30px;
     text-decoration: none;
     font-size: 30px;
-    height: 25px;
+    height: 25%;
+    margin-bottom: 30px;
 }
 
 #nav-bar :hover {
-    background: whitesmoke;
+    color: rgb(22, 21, 21);
+    
 }
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+    text-decoration: none;
+}
+
 /* question answer section */
 
 body {
@@ -29,6 +37,20 @@ body {
     font-size: 20px;
     margin-top: 25px;
     padding: 10px;
+}
+ .main-section {
+     margin: 50px auto;
+ }
+
+.buttons {
+    border: 1px;
+    font-size: 5px;
+    font-weight: 100;
+}
+
+.buttons:hover {
+    color: #3d0303;
+    text-decoration: none;
 }
 
 /* footer section */
@@ -52,12 +74,31 @@ footer {
     color: #3a3a3a;
 } 
 
-/* media Queries */
-
-/* from larger to medium size screen sizes 1200px wide and down */
-
-@media screen and (max-width: 1200px) {
-
+.signup-form {
+    margin: 200px 10% 5% 10%;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: relative;
+    left: 10%;
+    padding: 30px;
+    font-size: 2rem;
 }
+.signup-form1 {
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: relative;
+    left: 10%;
+    padding: 30px;
+    margin: 200px 10% 5% 10%;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
    
-  
