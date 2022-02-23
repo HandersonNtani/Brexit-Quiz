@@ -10,7 +10,7 @@ h1 {
 
  /* navigation links */
 
-@media (max-width: 4em;) {
+@media (max-width: 4em) {
     #nav-bar li {
         float: right;
         list-style-type: none;
@@ -23,7 +23,7 @@ h1 {
     }
 }
     
-}
+
 #nav-bar :hover {
     color: rgb(22, 21, 21);
     
