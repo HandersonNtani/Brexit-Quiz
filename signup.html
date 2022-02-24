@@ -28,18 +28,22 @@
     </header>
     <br>
     <!-- signup form-->
-    <div class="login-form">
+    <div id="login-form">
         <form method="POST" class="signup-form1">
             <h2>Let's get you signed up!</h2>
             <label for="fname">First Name</label>
-            <input id="fname" name="first_name" type="text" placeholder="First Name" required>
+            <input name="first_name" type="text" placeholder="First Name" required>
             <label for="lname">Last Name</label>
-            <input id="lname" name="last_name" type="text" placeholder="Last Name" required>
+            <input name="last_name" type="text" placeholder="Last Name" required>
             <label for="email">Email Address</label>
-            <input type="email" id="email" name="email_address" placeholder="Your Email" required>
+            <input type="email" name="email_address" placeholder="Your Email" required>
             <label for="pword">Password</label>
-            <input id="pword" name="pass_word" type="password" placeholder="Your Password" required>
-            <input class="join-button" type="submit" value="Register!">
+            <input name="pass_word" type="password" placeholder="Your Password" required>
+            <label for="pword">Password</label>
+            <input name="pass_word2" type="password" placeholder="Retype Password" required>
+            <div">
+                <input class="join-button" type="submit" value="Register!">
+            </div>
         </form>
     </div>
     <!-- footer-->
