@@ -27,6 +27,9 @@ h1 {
 }
 
 @media only screen and (max-width: 600px){
+    h1 {
+        font: size 40px; 
+    }
     #nav-bar {
         display: flex;
         padding: 0;
@@ -70,6 +73,11 @@ body {
      margin: 50px auto;
  }
 
+ .login-form {
+    justify-content: center;
+    font-size: 1.2rem;
+ }
+
 .buttons {
     border: 1px;
     font-size: 5px;
@@ -88,6 +96,14 @@ body {
 .buttons:hover {
     color: #3d0303;
     text-decoration: none;
+}
+
+.join-button {
+    font-size: 1rem;
+    font-weight: 100;
+}
+.join-button:hover {
+    background-color: rgba(60, 60, 60, 0.6);
 }
 
 /* footer section */
